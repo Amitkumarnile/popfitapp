@@ -64,7 +64,7 @@ const DumbleSet = (props) => {
 
     }
     catch (error) {
-      // console.log("......error.........", error.response.data.message);
+      console.log("......error.........", error.response.data.message);
       Alert.alert("Catch error msg FitnessEquipment !!!!")
       setIsLoading(false);
     }
